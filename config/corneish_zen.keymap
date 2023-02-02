@@ -31,7 +31,7 @@
    &kp ESC       &kp SQT        &kp COMMA  &kp DOT &kp P &kp Y   &kp F &kp G  &kp C &kp R      &kp L       &kp BSLH
    &kp BSPC      &kp A          &kp O      &kp E   &kp U &kp I   &kp D &kp H  &kp T &kp N      &kp S       &kp MINUS
    &mt LSHFT TAB &mt LCTRL SEMI &mt LALT Q &kp J   &kp K &kp X   &kp B &kp M  &kp W &mt RALT V &mt RCTRL Z &mt RSHFT FSLH
-                           &mo 1 &kp SPACE &kp LGUI   &kp RET &kp SPACE &mo 2
+                           &mo 1 &mt 2     &kp LGUI   &kp RET &kp SPACE &mo 1
                         >;
                 };
                 lower_layer {
@@ -44,7 +44,7 @@
                         bindings = <
    &kp GRAVE  &kp N1       &kp N2       &kp N3     &kp N4  &kp N5         &kp N6    &kp N7    &kp N8    &kp N9  &kp N0  &kp EQUAL
    &kp F1     &kp F2       &kp F3       &kp F4     &kp F5  &kp F6         &kp F7    &kp F8    &kp F9    &kp 10  &kp F11 &kp F12
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &kp DOWN   &kp UP  &kp LBRC       &kp RBRC  &kp LEFT  &kp RIGHT &trans  &trans  &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &kp DOWN   &kp UP  &kp LBKT       &kp RBKT  &kp LEFT  &kp RIGHT &trans  &trans  &trans
                           	        &kp LGUI   &trans  &kp SPACE      &kp RET   &trans    &kp RALT
                         >;
                 };
