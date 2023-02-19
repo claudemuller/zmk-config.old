@@ -38,10 +38,10 @@
 // | SHFT |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  |  /   |
 //                    | MO1 | SPC | GUI |   | ENT | SPC  | MO2 |
                         bindings = <
-   &kp ESC       &kp SQT        &kp COMMA  &kp DOT &kp P &kp Y   &kp F &kp G  &kp C &kp R      &kp L       &kp BSLH
-   &kp BSPC      &kp A          &kp O      &kp E   &kp U &kp I   &kp D &kp H  &kp T &kp N      &kp S       &kp MINUS
-   &mt LSHFT TAB &mt LCTRL SEMI &mt LALT Q &kp J   &kp K &kp X   &kp B &kp M  &kp W &mt RALT V &mt RCTRL Z &mt RSHFT FSLH
-                           &mo 1 &mo 2     &kp LGUI   &kp RET &kp SPACE &mo 1
+   &kp ESC       &kp SQT        &kp COMMA  &kp DOT &kp P  &kp Y      &kp F   &kp G     &kp C   &kp R      &kp L       &kp BSLH
+   &kp BSPC      &kp A          &kp O      &kp E   &kp U  &kp I      &kp D   &kp H     &kp T   &kp N      &kp S       &kp MINUS
+   &mt LSHFT TAB &mt LCTRL SEMI &mt LALT Q &kp J   &kp K  &kp X      &kp B   &kp M     &kp W   &mt RALT V &mt RCTRL Z &mt RSHFT FSLH
+                                           &mo 1   &mo 2  &kp LGUI   &kp RET &kp SPACE &mo 1
                         >;
                 };
 
@@ -70,7 +70,7 @@
                         bindings = <
    &kp D        &trans       &trans        &trans   &trans   &trans       &trans   &trans   &trans   &trans   &trans   &bt BT_CLR
    &trans       &trans       &trans        &trans   &trans   &trans       &trans   &trans   &trans   &trans   &trans   &trans
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &trans   &trans   &trans       &trans   &trans   &trans   &trans   &trans
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &trans   &trans   &trans       &trans   &trans   &trans   &trans   &trans   &trans
                           	           &trans   &trans   &kp LGUI     &trans   &trans   &trans
                         >;
                 };
