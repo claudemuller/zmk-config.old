@@ -55,8 +55,8 @@
                         bindings = <
    &kp GRAVE  &kp N1   &kp N2   &kp N3     &kp N4  &kp N5      &kp N6     &kp N7       &kp N8      &kp N9  &kp N0        &kp EQUAL
    &kp F1     &kp F2   &kp F3   &kp F4     &kp F5  &kp F6      &kp F7     &kp F8       &kp F9      &kp 10  &kp F11       &kp F12
-   &trans     &trans   &trans   &kp DOWN   &kp UP  &kp LBKT    &kp RBKT   &kp LEFT     &kp RIGHT   &trans  &kp K_VOL_UP  &kp K_VOL_DOWN
-                                &trans     &trans  &kp K_PP    &trans     &kp K_PREV   &kp K_NEXT
+   &trans     &trans   &trans   &kp DOWN   &kp UP  &kp LBKT    &kp RBKT   &kp LEFT     &kp RIGHT   &trans  &kp C_VOL_UP  &kp C_VOL_DN
+                                &trans     &trans  &kp C_PP    &trans     &kp C_PREV   &kp C_NEXT
                         >;
                 };
 
